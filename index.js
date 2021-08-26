@@ -2,7 +2,7 @@ const chalk = require('chalk');
 const { WAConnection, MessageType } = require('@adiwajshing/baileys');
 const fs = require('fs');
 
-async function whatsAsena() {
+async function whatsAsena() {                                                                                                                                                                                                                                   
 	const conn = new WAConnection();
 	conn.logger.level = 'warn';
 	conn.version = [2,2123,8]
